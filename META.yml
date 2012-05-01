@@ -38,4 +38,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.03
+version: 0.04
