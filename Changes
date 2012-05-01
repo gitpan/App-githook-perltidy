@@ -1,0 +1,51 @@
+0.031_1 (2012-05-01)
+
+    API Changes:
+        - None.
+
+    New Features:
+        - None.
+
+    Enhancements:
+        - Handle partially indexed files better on post-commit
+        - Distribution name change to App-githook-perltidy.
+        - First release to CPAN (mostly for the tester reports)
+
+    Bug Fixes:
+        - None.
+
+0.03 (2011-10-14)
+
+    API Changes:
+        - None.
+
+    New Features:
+        - None.
+
+    Enhancements:
+        - PERLTIDY_MAKE environment variable support.
+        - Small portability fixes.
+
+    Bug Fixes:
+        - IMPORTANT! Properly detect a partial dirty tree.
+
+0.02 (2011-09-20)
+
+    API Changes:
+        - None.
+
+    New Features:
+        - None.
+
+    Enhancements:
+        - Depend on Pod::Tidy and Perl::Tidy to bring in the CLI tools.
+        - Initial tests added.
+
+    Bug Fixes:
+        - IMPORTANT! Actually do what the documentation claims:
+            * Detect perltidy failure
+            * Stop commit on failure
+
+0.01 (2011-09-19)
+
+    Initial Release.

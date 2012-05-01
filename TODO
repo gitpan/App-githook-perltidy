@@ -1,0 +1,15 @@
+Perltidy the stash contents before attempting to pop them?? This would
+solve a bunch of conflict errors
+
+Do a git checkout in another directory and run the make test from
+there.
+
+Check Makefile vs Makefile.PL modification times for re-run.
+
+Also tidy up on renames, as they show up only as renames even if the
+file got modified as well.
+
+Clean the index when popping the stack after a (successful?) commit
+
+Warn if a perltidy on *everything* would result in a dirty stash apply
+after the commit.
