@@ -2,11 +2,12 @@ NAME
     githook-perltidy - run perltidy and podtidy before Git commits
 
 VERSION
-    0.04.
+    0.05_01.
 
 SYNOPSIS
     Make sure everyone uses the same .perltidyrc across your project:
 
+        $ perltidy -w -dop > .perltidyrc
         $ git add .perltidyrc
         $ git commit
 

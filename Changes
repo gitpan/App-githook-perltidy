@@ -1,3 +1,18 @@
+0.05_1 (2012-05-02)
+
+    API Changes:
+        - None.
+
+    New Features:
+        - None.
+
+    Enhancements:
+        - Second release to CPAN (mostly for the tester reports)
+        - Include dummy App::githook_perltidy module for CPAN indexing
+
+    Bug Fixes:
+        - _Really_ Handle partially indexed files better on post-commit
+
 0.04 (2012-05-01)
 
     API Changes:

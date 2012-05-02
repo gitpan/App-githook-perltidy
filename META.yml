@@ -34,8 +34,9 @@ requires:
   File::Spec::Functions: 0
   Perl::Tidy: 0
   Pod::Tidy: 0
+  Time::Piece: 0
   perl: 5.6.0
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.04
+version: 0.05_01
