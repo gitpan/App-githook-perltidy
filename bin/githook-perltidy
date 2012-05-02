@@ -251,13 +251,13 @@ githook-perltidy - run perltidy and podtidy before Git commits
 
 =head1 VERSION
 
-0.9.0_02.
+0.9.1.
 
 =head1 SYNOPSIS
 
-Make sure everyone uses the same .perltidyrc across your project:
+Make sure everyone uses the same perltidy options across your project:
 
-    $ perltidy -w -dop > .perltidyrc
+    $ perltidy -b -w -dop | grep -v dump-options > .perltidyrc
     $ git add .perltidyrc
     $ git commit
 
@@ -269,8 +269,8 @@ Install the pre-commit and post-commit hooks:
 
 B<githook-perltidy> is a script that can be invoked by Git pre-commit
 and post-commit hooks to run L<perltidy> and L<podtidy> on Perl and POD
-files (and optionally L<make>(1) targets), ensuring that your project's
-code is always cleanly committed.
+files (and optionally run L<make>(1) targets), ensuring that your
+project's code is always cleanly committed.
 
 This script is is efficient: it only modifies Perl and POD files that
 are being committed and not every file in your repository. It also

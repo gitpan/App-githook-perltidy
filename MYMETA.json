@@ -52,7 +52,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://opensource.org/licenses/gpl-3.0.html"
@@ -61,5 +61,5 @@
          "url" : "git://github.com/mlawren/githook-perltidy.git"
       }
    },
-   "version" : "0.9.0_02"
+   "version" : "0.9.1"
 }
