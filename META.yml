@@ -1,5 +1,5 @@
 ---
-abstract: 'Run perltidy during Git commits'
+abstract: 'run perltidy and podtidy before Git commits'
 author:
   - 'Mark Lawrence <nomad@null.net>'
 build_requires:
@@ -38,4 +38,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.9.2
+version: 0.9.3
