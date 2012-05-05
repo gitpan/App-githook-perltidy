@@ -5,7 +5,6 @@ author:
 build_requires:
   Cwd: 0
   ExtUtils::MakeMaker: 6.59
-  File::Slurp: 0
   File::Spec::Functions: 0
   File::Temp: 0
   FindBin: 0
@@ -13,9 +12,9 @@ build_requires:
   Test::Fatal: 0
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.59
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 1.06, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,9 +22,8 @@ meta-spec:
 name: App-githook-perltidy
 no_index:
   directory:
-    - inc
     - t
-    - xt
+    - inc
 requires:
   Carp: 0
   File::Basename: 0
@@ -35,7 +33,4 @@ requires:
   Pod::Tidy: 0
   Time::Piece: 0
   perl: 5.006
-resources:
-  license: http://opensource.org/licenses/gpl-3.0.html
-  repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.9.1
+version: v0.9.2
