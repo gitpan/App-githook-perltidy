@@ -4,7 +4,7 @@
       "Mark Lawrence <nomad@null.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unknown"
    ],
@@ -23,14 +23,14 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Cwd" : 0,
+            "Cwd" : "0",
             "ExtUtils::MakeMaker" : "6.59",
-            "File::Spec::Functions" : 0,
-            "File::Temp" : 0,
-            "FindBin" : 0,
-            "Sys::Cmd" : 0,
-            "Test::Fatal" : 0,
-            "Test::More" : 0
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0",
+            "FindBin" : "0",
+            "Sys::Cmd" : "0",
+            "Test::Fatal" : "0",
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -40,13 +40,13 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "File::Basename" : 0,
-            "File::Slurp" : 0,
-            "File::Spec::Functions" : 0,
-            "Perl::Tidy" : 0,
-            "Pod::Tidy" : 0,
-            "Time::Piece" : 0,
+            "Carp" : "0",
+            "File::Basename" : "0",
+            "File::Slurp" : "0",
+            "File::Spec::Functions" : "0",
+            "Perl::Tidy" : "0",
+            "Pod::Tidy" : "0",
+            "Time::Piece" : "0",
             "perl" : "5.006"
          }
       }
@@ -60,5 +60,5 @@
          "url" : "git://github.com/mlawren/githook-perltidy.git"
       }
    },
-   "version" : "0.10.1"
+   "version" : "0.10.2"
 }
