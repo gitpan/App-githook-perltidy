@@ -5,7 +5,7 @@ use App::githook_perltidy::Util qw/get_perltidyrc/;
 use File::Basename;
 use Path::Tiny;
 
-our $VERSION = '0.11.1_1';
+our $VERSION = '0.11.1_2';
 
 sub run {
     my $opts = shift;
@@ -68,7 +68,7 @@ Mark Lawrence E<lt>nomad@null.netE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2011-2012 Mark Lawrence <nomad@null.net>
+Copyright 2011-2013 Mark Lawrence <nomad@null.net>
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the

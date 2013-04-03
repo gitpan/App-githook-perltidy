@@ -8,7 +8,7 @@ use Perl::Tidy;
 use Pod::Tidy;
 use Time::Piece;
 
-our $VERSION = '0.11.1_1';
+our $VERSION = '0.11.1_2';
 
 my $stashed;
 my $success;
@@ -172,7 +172,7 @@ Mark Lawrence E<lt>nomad@null.netE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2011-2012 Mark Lawrence <nomad@null.net>
+Copyright 2011-2013 Mark Lawrence <nomad@null.net>
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the
