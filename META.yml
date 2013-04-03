@@ -3,11 +3,10 @@ abstract: 'run perltidy and podtidy before Git commits'
 author:
   - 'Mark Lawrence <nomad@null.net>'
 build_requires:
-  Cwd: 0
   ExtUtils::MakeMaker: 6.59
-  File::Spec::Functions: 0
-  File::Temp: 0
+  File::Slurp: 0
   FindBin: 0
+  Path::Tiny: 0
   Sys::Cmd: 0
   Test::Fatal: 0
   Test::More: 0
@@ -29,8 +28,8 @@ no_index:
 requires:
   Carp: 0
   File::Basename: 0
-  File::Slurp: 0
-  File::Spec::Functions: 0
+  OptArgs: 0
+  Path::Tiny: 0
   Perl::Tidy: 0
   Pod::Tidy: 0
   Time::Piece: 0
@@ -38,4 +37,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.10.2
+version: 0.11.1_1
