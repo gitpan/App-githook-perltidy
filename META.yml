@@ -27,6 +27,7 @@ no_index:
     - xt
 requires:
   Carp: 0
+  Exporter::Tidy: 0
   File::Basename: 0
   OptArgs: 0
   Path::Tiny: 0
@@ -37,4 +38,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: git://github.com/mlawren/githook-perltidy.git
-version: 0.11.1_2
+version: 0.11.1_3

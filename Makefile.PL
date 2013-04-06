@@ -8,6 +8,7 @@ BEGIN {
 use inc::Module::Install;
 
 name 'App-githook-perltidy';
+version '0.11.1_3';
 all_from 'lib/App/githook_perltidy.pm';
 abstract 'run perltidy and podtidy before Git commits';
 license 'gpl3';
@@ -16,6 +17,7 @@ readme_from 'bin/githook-perltidy';
 
 requires 'File::Basename' => 0;
 requires 'Carp'           => 0;
+requires 'Exporter::Tidy' => 0;
 requires 'OptArgs'        => 0;
 requires 'Path::Tiny'     => 0;
 requires 'Perl::Tidy'     => 0;
