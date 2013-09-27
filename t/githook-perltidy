@@ -1,0 +1,7 @@
+#!/opt/perlbrew/perls/perl-5.14.2/bin/perl
+use strict;
+use FindBin qw/$Bin/;
+use lib "$Bin/../lib";
+use OptArgs qw/dispatch/;
+
+dispatch(qw/run App::githook_perltidy/);
